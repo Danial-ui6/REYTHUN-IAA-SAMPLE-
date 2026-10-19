@@ -1,12 +1,13 @@
 # REYTHUN-IAA-SAMPLE-
 RYTHUN — Sample work: quality report for a 200-item RLHF harmlessness preference dataset. 3 annotators, 84% observed agreement, Fleiss' Kappa 0.68, documented adjudication. Methodology and sanitized samples only; full dataset under NDA.
+# 
 # RYTHUN — RLHF Harmlessness Preference Data Quality Report
 
 **Sample work from RYTHUN's data quality and annotation practice.**
 
 This repository documents a 200-item human-annotated preference pilot for **harmlessness alignment** in RLHF. It demonstrates our rigorous methodology for measuring inter-annotator agreement (IAA), managing disagreements through formal adjudication, and ensuring high-fidelity data for safety tuning.
 
-The full annotation matrix and raw response texts are available to qualified partners **under NDA**. This repository is intentionally public-safe: it shows *how* we measure quality, not *what* the sensitive prompts contained.
+We do not publish our raw annotation matrix publicly. Instead, we prove our quality through a **discounted pilot program**. You provide the prompts; we deliver the data, the IAA metrics, and the full audit trail. 
 
 ---
 
@@ -27,7 +28,7 @@ The full annotation matrix and raw response texts are available to qualified par
 
 ## 2. Inter-Annotator Agreement (IAA) Metrics
 
-We do not rely on a single metric. To ensure our quality claims are robust, we calculate multiple IAA formulas. All metrics are computed on the raw, independent labels before any aggregation.
+We calculate multiple IAA formulas to ensure our quality claims are robust. All metrics are computed on the raw, independent labels before any aggregation.
 
 ### 2.1. Primary Agreement Metrics
 
@@ -71,7 +72,7 @@ All annotators show >94% agreement with the final majority label, proving outsta
 | ├ 2×A / 1×B | 14 | 7.0% |
 | └ 2×B / 1×A | 13 | 6.5% |
 
-Only 27 disagreements were found. These represent the genuinely borderline cases (e.g., satire, hypothetical scenarios). All 27 cases were processed through our formal adjudication workflow to produce the final gold label.
+Only 27 disagreements were found. These represent the genuinely borderline cases. All 27 cases were processed through our formal adjudication workflow to produce the final gold label.
 
 ---
 
@@ -80,18 +81,35 @@ Only 27 disagreements were found. These represent the genuinely borderline cases
 Our process is designed to eliminate bias and ensure reproducibility:
 
 1. **Guideline Design:** A strict harmlessness rubric defines direct harm, indirect harm, and borderline categories.
-2. **Independent Labeling:** 3 annotators label all 200 items blind to each other's choices and without any model pre-labels.
+2. **Independent Labeling:** 3 annotators label all items blind to each other's choices and without any model pre-labels.
 3. **Majority Vote:** Final label determined by 2-of-3 majority.
-4. **Adjudication:** All 27 (2-1) disagreements are reviewed by a senior reviewer, with a written rationale for each final decision.
+4. **Adjudication:** All (2-1) disagreements are reviewed by a senior reviewer, with a written rationale for each final decision.
 5. **IAA Audit:** Metrics are computed *before* aggregation to prevent post-hoc rationalization.
 
 ---
 
-## 4. Reproducibility
+## 4. Engagement Model & Pilot Program
 
-The repository includes a dependency-free Python script (`compute_iaa.py`) to reproduce all the metrics in this report.
+RYTHUN provides high-quality, documented data for frontier AI labs and safety teams. We are so confident in our quality that we offer a **50% discounted pilot program** to prove our capabilities on your data.
 
-```bash
-python compute_iaa.py data/annotations_wide.csv \
-  --annotators annotator_1 annotator_2 annotator_3 \
-  --id id
+| Stage | Scope | Pricing | Output |
+|---|---|---|---|
+| **Smoke Test** | 20–50 items on your data | **Free** | Labeled file + rationale |
+| **Discounted Pilot** | 200–500 items | **50% OFF standard rate** | CSV + Full IAA Report + Adjudication Log |
+| **Production** | 2,000+ items/month | Standard agreed rate | Weekly batches with rolling IAA audits |
+
+### The Pilot Guarantee & Verification
+Our pilot is designed to eliminate your risk entirely. We do not just send you labels; we send you the proof.
+1. **Target:** We commit to a **Fleiss' Kappa target of ≥ 0.80** on the pilot dataset.
+2. **Verification:** Upon delivery, you will receive the annotation matrix, the IAA calculation script, and the audit report. Your engineers can run the script locally to independently verify the Kappa score.
+3. **The Upgrade:** If the pilot meets the Kappa ≥ 0.80 threshold, we transition to a full production contract at standard rates. If it fails, we will revise the pilot for free until the threshold is met.
+
+For inquiries and NDA requests: **[Your Email Address]**
+
+---
+
+## 5. License
+
+**Proprietary and Confidential.**  
+Copyright (c) 2026 RYTHUN. All Rights Reserved.  
+The materials in this repository are for evaluation purposes only. Any use, reproduction, or commercial deployment requires a separate written license agreement. See the `LICENSE` file for full terms.
