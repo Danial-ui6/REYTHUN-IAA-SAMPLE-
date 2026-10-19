@@ -1,0 +1,39 @@
+RYTHUN PROPRIETARY LICENSE AND CONFIDENTIALITY AGREEMENT
+
+Copyright (c) 2026 RYTHUN. All Rights Reserved.
+
+PLEASE READ THIS LICENSE CAREFULLY BEFORE ACCESSING, VIEWING, OR USING ANY MATERIALS IN THIS REPOSITORY.
+
+1. DEFINITIONS
+"Materials" means all content in this repository, including but not limited to: source code, algorithms, software scripts, data files, datasets, sanitized samples, documentation, methodologies, annotation guidelines, adjudication reports, mathematical models, and any associated metadata.
+"RYTHUN" means the copyright holder and owner of the Materials.
+
+2. PROPRIETARY AND CONFIDENTIAL
+The Materials are proprietary, confidential, and constitute valuable trade secrets of RYTHUN. The Materials are not open-source.
+
+3. NO LICENSE GRANTED (ALL RIGHTS RESERVED)
+No license, right, title, or interest in or to the Materials is granted to you, whether expressly, by implication, estoppel, or otherwise. All rights, title, and interest in the Materials remain exclusively with RYTHUN. 
+
+4. STRICT PROHIBITIONS
+You are strictly prohibited from doing any of the following without prior, explicit, written permission from RYTHUN:
+(a) Copying, reproducing, downloading (except for transient web viewing), distributing, publishing, or transmitting the Materials.
+(b) Modifying, adapting, translating, or creating derivative works based on the Materials.
+(c) Using the Materials, or any part thereof, to train, fine-tune, evaluate, or improve any machine learning models, artificial intelligence systems, or algorithms (including but not limited to LLMs).
+(d) Using the Materials for any commercial purpose, including internal business operations, consulting, or providing services to third parties.
+(e) Reverse engineering, decompiling, or attempting to extract the source code or underlying algorithms from the Materials.
+(f) Sublicensing, selling, renting, leasing, or transferring the Materials to any third party.
+
+5. LIMITED EVALUATION PURPOSE
+Any viewing of this repository on a public platform is permitted solely for the purpose of preliminary, non-binding evaluation of RYTHUN's potential services. Any actual use, download, or implementation of the Materials for testing or production requires a separate, signed Commercial License Agreement and Non-Disclosure Agreement (NDA) with RYTHUN.
+
+6. INTELLECTUAL PROPERTY AND TRADE SECRET PROTECTION
+You acknowledge that the Materials contain valuable trade secrets of RYTHUN. You agree to maintain the strict confidentiality of the Materials and to take all reasonable precautions to prevent unauthorized access or use.
+
+7. ENFORCEMENT AND REMEDIES
+Any unauthorized use, reproduction, or distribution of the Materials constitutes a material breach of this License, an infringement of RYTHUN's copyrights, and a misappropriation of RYTHUN's trade secrets. RYTHUN reserves the right to pursue all available legal and equitable remedies, including but not limited to injunctive relief and monetary damages.
+
+8. DISCLAIMER OF WARRANTY
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL RYTHUN BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THE MATERIALS.
+
+9. GOVERNING LAW
+This License shall be governed by and construed in accordance with the laws of [Your Jurisdiction, e.g., the Islamic Republic of Iran / Germany / Delaware, USA], without regard to its conflict of law principles.
