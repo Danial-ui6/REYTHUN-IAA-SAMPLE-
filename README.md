@@ -104,7 +104,7 @@ Our pilot is designed to eliminate your risk entirely. We do not just send you l
 2. **Verification:** Upon delivery, you will receive the annotation matrix, the IAA calculation script, and the audit report. Your engineers can run the script locally to independently verify the Kappa score.
 3. **The Upgrade:** If the pilot meets the Kappa ≥ 0.80 threshold, we transition to a full production contract at standard rates. If it fails, we will revise the pilot for free until the threshold is met.
 
-For inquiries and NDA requests: **[Your Email Address]**
+For inquiries and NDA requests: **[danialnamvar1@gmail.com]**
 
 ---
 
